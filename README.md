@@ -9,6 +9,13 @@ In Actor-Critic algorithms, we simultaneously train an actor (policy) and a crit
 ```math
 \mathbb{E}_{\pi_{\theta}} \left[ \left( \sum_{t=0}^{T} \nabla_{\theta} \log \pi_{\theta}(a_t|s_t) \cdot A_{\pi_{\theta}}(s_t, a_t) \right)^2 \leq \left( \sum_{t=0}^{T} (\nabla_{\theta} \log \pi_{\theta}(a_t|s_t))^2 \right) \cdot \mathbb{E}_{\pi_{\theta}} \left[ \sum_{t=0}^{T} (A_{\pi_{\theta}}(s_t, a_t))^2 \right] \right]
 ```
+The model uses Torch and OpenAIGym  - 
+```
+pip install -r requirements.txt
+```
+```
+python DQN.py
+```
 
 To run vanilla DDQN - 
 
