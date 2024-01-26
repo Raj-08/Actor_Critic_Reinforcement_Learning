@@ -21,4 +21,4 @@ To run Actor Crtic DDQN -
 python DQN-AC.py
 ```
 
-![plot](agent_1.png)
+![plot](agentL1.png)
