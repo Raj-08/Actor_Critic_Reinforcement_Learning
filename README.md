@@ -13,9 +13,6 @@ The model uses Torch and OpenAIGym  -
 ```
 pip install -r requirements.txt
 ```
-```
-python DQN.py
-```
 
 To run vanilla DDQN - 
 
