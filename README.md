@@ -21,7 +21,7 @@ To run Actor Crtic DDQN -
 ```
 python DQN-AC.py
 ```
-
+```
 #Set the hyperparameters
 
 #Discount rate
@@ -43,5 +43,6 @@ max_episodes = 20000000
 
 #Learning_rate
 lr = 5e-6
+```
 ### Cumulative Rewards over time
 ![plot](agentL1.png)
