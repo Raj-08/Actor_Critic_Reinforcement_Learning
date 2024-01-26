@@ -1,0 +1,10 @@
+jupyter
+numpy
+matplotlib
+gymnasium
+swig
+ufal.pybox2d
+pygame
+pandas
+openpyxl
+
