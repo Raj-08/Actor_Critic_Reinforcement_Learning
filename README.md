@@ -20,5 +20,5 @@ To run Actor Crtic DDQN -
 ```
 python DQN-AC.py
 ```
-
+### Cumulative Rewards over time
 ![plot](agentL1.png)
