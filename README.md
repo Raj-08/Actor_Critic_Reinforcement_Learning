@@ -3,7 +3,6 @@
 In Actor-Critic algorithms, we simultaneously train an actor (policy) and a critic (value function). The actor guides the agent's actions, and the critic evaluates the state or state-action values.
 
 
-### Mathematical Formulation
 
 
 ```math
